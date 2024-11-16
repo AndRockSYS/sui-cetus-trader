@@ -103,8 +103,6 @@ export async function addLiquidityTx(config: LiquidityConfig): Promise<Transacti
         pos_id: config.positionId ?? '',
     };
 
-    console.log(addLiquidityPayloadParams);
-
     return await cetusSDK.Position.createAddLiquidityFixTokenPayload(addLiquidityPayloadParams, {
         slippage: slippage,
         curSqrtPrice: new BN(pool.current_sqrt_price),
