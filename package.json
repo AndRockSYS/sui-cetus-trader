@@ -1,0 +1,21 @@
+{
+    "name": "sui-cetus-trader",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "npx ts-node ./index.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@types/node": "^22.9.0",
+        "typescript": "^5.6.3"
+    },
+    "dependencies": {
+        "@cetusprotocol/cetus-sui-clmm-sdk": "^5.1.8",
+        "@mysten/sui": "^1.14.3",
+        "tslib": "^2.8.1"
+    }
+}
